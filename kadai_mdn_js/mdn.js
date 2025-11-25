@@ -1,7 +1,7 @@
-const year = new Date("2024-10-12T23:15:30").getFullYear();
-const month = new Date("2024-10-12T23:15:30").getMonth() + 1; // Months are zero-based
-const day = new Date("2024-10-12T23:15:30").getDate();
+const year = new Date("2025-11-25T23:15:30").getFullYear();
+const month = new Date("2025-11-25T23:15:30").getMonth() + 1; // Months are zero-based
+const day = new Date("2025-11-25T23:15:30").getDate();
 
-console.log(year); // 2024
-console.log(month); // 10
-console.log(day); // 12
+console.log(year); // 2025
+console.log(month); // 11
+console.log(day); // 125
