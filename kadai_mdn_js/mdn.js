@@ -1,7 +1,6 @@
-const year = new Date("2025-11-25T23:15:30").getFullYear();
-const month = new Date("2025-11-25T23:15:30").getMonth() + 1; // Months are zero-based
-const day = new Date("2025-11-25T23:15:30").getDate();
+const today = new Date();
+const year = today.getFullYear();
+const month = today.getMonth() + 1; // getMonth() は 0 から始まるので、1 を足します
+const date = today.getDate();
 
-console.log(year); // 2025
-console.log(month); // 11
-console.log(day); // 125
+console.log(year + '年' + month + '月' + day + '日');
